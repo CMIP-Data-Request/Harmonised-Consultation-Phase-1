@@ -1,1 +1,1 @@
-# Discussions-Phase-1
+# Discussions Phase 1
