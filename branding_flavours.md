@@ -21,7 +21,8 @@ An alternative proposal is based more directly on vocabularies in the current re
 
 ### Notes
 * Once a cell methods string is specified from the list, there is only one valid choice of time axis. This was not enforced in CMIP5/6, and is yet enforced in the CMIP7 beta release, but can be enforced for the full 1.0 release.
-* The "Coordinates and Dimensions" vocabulary distinguishes between NetDCF dimensions (which determine the size of an array) and coordinates, which give additonal descriptive metadata. For many purposes this distinction is not relevant, but it is important if we want to explain to users the significance of the metadata that is used to specify file format.   
+* The "Coordinates and Dimensions" vocabulary distinguishes between NetDCF dimensions (which determine the size of an array) and coordinates, which give additonal descriptive metadata. For many purposes this distinction is not relevant, but it is important if we want to explain to users the significance of the metadata that is used to specify file format.
+* The short codes referenced above were introduced in CMIP6 for convenience, but did not always follow a regular pattern. They have been cleaned up for CMIP7.
 
 ## Implementation
 
